@@ -1,0 +1,64 @@
+/***** Base Styles *****/
+body {
+    background: #e8e8e8;
+}
+/***** Board *****/
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    margin: 50px auto;
+    overflow: auto;
+    background: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montserrat', san-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #3b3b3b;
+}
+.block {
+    float: left;
+    box-sizing: border-box;
+    width: 400px;
+}
+.small-block {
+    height: 210px;
+    padding: 20px 40px;
+}
+.large-block {
+    height: 430px;
+    padding: 70px 40px;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.white {
+    background: #ffffff;
+}
+.black {
+    background: #3b3b3b;
+    color: white;
+}
+.highlight {
+    background: #fff44f;
+    padding: 5px;
+    font-size: 18px;
+}
+strong {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: capitalize;
+}
+aside {
+    font-size: 30px;
+    color: white;
+    margin: 5px 0;
+    font-weight: bold;
+}
+.special {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+}
